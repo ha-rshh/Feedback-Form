@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    top: 10vh;
+    background-color: rgb(200, 255, 237);
+    position: static;
+}
+.feedback-header{
+    letter-spacing: px;
+    text-align: center;
+    padding: 15px;
+    font-size: 2vw;
+}
+.codecamp{
+    top: 3vh;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.form{
+    position: relative;
+    top: 5vh;
+    
+}
+}
+.mainform  {
+    background-color: rgba(226, 190, 29, 0.781);
+    border-radius: 0.5vw;
+    padding: 20px 20px;
+    margin:  20px 20px;
+}
+.formheading{
+    text-align: center;
+    color: aquamarine;
+    text-decoration: underline;
+}
+.feedback{
+    color: azure;
+    text-align: center;
+}
+.legend
+{
+    text-decoration:underline;
+    text-align: center;
+    color:rgb(24, 26, 26);
+    font-size: 1vw;
+}
+.inputhere
+{
+ position: relative;   
+ margin-top: 2vw;
+}
+.firstN{
+    position: relative;
+    margin:10px 100px 10px 10px;
+}
+.lastN{
+    position: relative;
+    margin:10px 0px 10px 12px;
+}
+.emaill{
+position: relative;
+margin: 10px 0px 10px 51px;
+}
+#age{
+    position: relative;
+    margin: 10px 0px 10px 68px;
+    }
+.role
+{
+
+    margin: 10px 0px 10px;
+}
+:hover#submit{
+    color: blue;
+}
+body .password-field {  
+    position: relative;  
+}  
+body .password-field input {  
+    width: 10rem;  
+    height: 1em;  
+    padding: 1em;  
+    border: 0;  
+    border-radius: 5px;  
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);  
+    font-size: 10px;  
+    letter-spacing: 1px;  
+}  
+body .password-field input::placeholder {  
+    color: #000;  
+    font-weight: bold;  
+}  
+body .password-field #toggler {  
+    position: absolute;  
+    right: 20px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    cursor: pointer;  
+}  
